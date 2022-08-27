@@ -84,6 +84,12 @@ public class Main {
         drinkMenu.add(water);
         drinkMenu.add(soda);
         drinkMenu.add(milk);
+
+       new Order(cupcakeMenu, drinkMenu);
+        new CreateFile();
+        // Create a new WriteToFile() with the parameter order
+
+
     }
 }
 
